@@ -55,7 +55,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#certificates" className="text-slate-400 hover:text-indigo-400 transition-colors">
-                  Verified Certificates (9)
+                  Verified Certificates (16)
                 </a>
               </li>
               <li>

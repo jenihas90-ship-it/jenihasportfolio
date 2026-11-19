@@ -37,6 +37,25 @@ export default function Certificates() {
   }, [previewCert]);
 
   const certificatesData = [
+    // --- UDACITY CREDENTIALS ---
+    {
+      id: 'udacity-programming',
+      title: 'Programming Fundamentals Nanodegree',
+      issuer: 'Udacity',
+      issuerShort: 'UDACITY',
+      issuerLogoText: 'DEV',
+      program: 'Verified Certificate Of Nanodegree Program Completion',
+      date: 'November 5, 2026',
+      credentialId: '00b63ab2-d94e-11f1-8927-9bedd255865e',
+      verificationUrl: 'https://www.udacity.com/certificate/e/00b63ab2-d94e-11f1-8927-9bedd255865e',
+      pdfUrl: '/certificates/udacity-programming-fundamentals.pdf',
+      category: 'Programming & AI',
+      accentColor: 'indigo',
+      recipient: 'Jenihas Getachew',
+      partnerNote:
+        'In partnership with UAE Ministry of Cabinet Affairs, Government Experience Exchange Office, 5 Million Ethiopian Coders Initiative, and MInT.',
+      skills: ['Programming Fundamentals', 'Algorithmic Thinking', 'Software Architecture', 'Code Structuring'],
+    },
     {
       id: 'udacity-ai',
       title: 'Global Chapters - Ethiopia - AI Fundamentals',
@@ -48,7 +67,7 @@ export default function Certificates() {
       credentialId: '3e46a08e-2828-41f9-8743-80d55b8126e7',
       verificationUrl: 'https://confirm.udacity.com/lp/3e46a08e-2828-41f9-8743-80d55b8126e7',
       pdfUrl: '/certificates/udacity-ai-fundamentals.pdf',
-      category: 'AI & Data',
+      category: 'Programming & AI',
       accentColor: 'cyan',
       recipient: 'Jenihas Getachew',
       partnerNote:
@@ -66,7 +85,7 @@ export default function Certificates() {
       credentialId: 'a66bc34d-df22-48b6-8bc6-aacb09515250',
       verificationUrl: 'https://confirm.udacity.com/lp/a66bc34d-df22-48b6-8bc6-aacb09515250',
       pdfUrl: '/certificates/udacity-android-fundamentals.pdf',
-      category: 'Mobile Dev',
+      category: 'Programming & AI',
       accentColor: 'indigo',
       recipient: 'Jenihas Getachew',
       partnerNote:
@@ -84,13 +103,119 @@ export default function Certificates() {
       credentialId: '8ca5db0f-7290-4495-8f29-ed77640a9336',
       verificationUrl: 'https://confirm.udacity.com/lp/8ca5db0f-7290-4495-8f29-ed77640a9336',
       pdfUrl: '/certificates/udacity-data-fundamentals.pdf',
-      category: 'AI & Data',
+      category: 'Programming & AI',
       accentColor: 'cyan',
       recipient: 'Jenihas Getachew',
       partnerNote:
         'Supported by UAE Ministry of Cabinet Affairs & Ethiopian Ministry of Labor and Skills.',
       skills: ['Data Analysis', 'Data Cleaning', 'Relational Databases', 'Information Visualization'],
     },
+
+    // --- CISCO NETWORKING ACADEMY CREDENTIALS ---
+    {
+      id: 'cisco-cybersecurity',
+      title: 'Introduction to Cybersecurity',
+      issuer: 'Cisco Networking Academy',
+      issuerShort: 'CISCO',
+      issuerLogoText: 'CISCO',
+      program: 'Cisco Networking Academy Certificate of Completion',
+      date: '11 Nov 2026',
+      credentialId: 'e0f3048b-d940-4e29-b729-abf6ace01fb4',
+      verificationUrl: 'https://www.netacad.com/certificates/?issuanceId=e0f3048b-d940-4e29-b729-abf6ace01fb4',
+      pdfUrl: '/certificates/cisco-cybersecurity.pdf',
+      category: 'Cybersecurity & Systems',
+      accentColor: 'emerald',
+      recipient: 'Jenihas Getachew',
+      partnerNote: 'Awarded by Lynn Bloomer, Director, Cisco Networking Academy.',
+      skills: ['Cybersecurity Core', 'Threat Detection', 'Defensive Protocols', 'Vulnerability Assessment'],
+    },
+    {
+      id: 'cisco-networking',
+      title: 'Networking Basics',
+      issuer: 'Cisco Networking Academy',
+      issuerShort: 'CISCO',
+      issuerLogoText: 'NET',
+      program: 'Cisco Networking Academy Certificate of Completion',
+      date: '10 Nov 2026',
+      credentialId: 'ebb15fc4-d1db-46b2-b652-ac9ac77912de',
+      verificationUrl: 'https://www.netacad.com/certificates/?issuanceId=ebb15fc4-d1db-46b2-b652-ac9ac77912de',
+      pdfUrl: '/certificates/cisco-networking-basics.pdf',
+      category: 'Cybersecurity & Systems',
+      accentColor: 'emerald',
+      recipient: 'Jenihas Getachew',
+      partnerNote: 'Awarded by Lynn Bloomer, Director, Cisco Networking Academy.',
+      skills: ['Computer Networks', 'IP Addressing', 'Network Protocols', 'OSI / TCP-IP Models', 'Routers & Switches'],
+    },
+    {
+      id: 'cisco-os',
+      title: 'Operating Systems Basics',
+      issuer: 'Cisco Networking Academy',
+      issuerShort: 'CISCO',
+      issuerLogoText: 'OS',
+      program: 'Cisco Networking Academy Certificate of Completion',
+      date: '11 Nov 2026',
+      credentialId: '6bb9b0a4-4988-401c-9fae-b5939b7cc0af',
+      verificationUrl: 'https://www.netacad.com/certificates/?issuanceId=6bb9b0a4-4988-401c-9fae-b5939b7cc0af',
+      pdfUrl: '/certificates/cisco-operating-systems.pdf',
+      category: 'Cybersecurity & Systems',
+      accentColor: 'emerald',
+      recipient: 'Jenihas Getachew',
+      partnerNote: 'Awarded by Lynn Bloomer, Director, Cisco Networking Academy.',
+      skills: ['OS Architecture', 'Process Management', 'File Systems & Permissions', 'Linux & Windows Foundations'],
+    },
+    {
+      id: 'cisco-customer-support',
+      title: 'IT Customer Support Basics',
+      issuer: 'Cisco Networking Academy',
+      issuerShort: 'CISCO',
+      issuerLogoText: 'IT',
+      program: 'Cisco Networking Academy Certificate of Completion',
+      date: '11 Nov 2026',
+      credentialId: 'bef776af-7fe9-4582-8360-b79dc02753bd',
+      verificationUrl: 'https://www.netacad.com/certificates/?issuanceId=bef776af-7fe9-4582-8360-b79dc02753bd',
+      pdfUrl: '/certificates/cisco-it-customer-support.pdf',
+      category: 'IT & Digital Workplace',
+      accentColor: 'cyan',
+      recipient: 'Jenihas Getachew',
+      partnerNote: 'Awarded by Lynn Bloomer, Director, Cisco Networking Academy.',
+      skills: ['IT Support Operations', 'Troubleshooting Methodologies', 'Client Communication', 'Helpdesk Standards'],
+    },
+    {
+      id: 'cisco-digital-content',
+      title: 'Create Digital Content, Communicate and Collaborate Online',
+      issuer: 'Cisco Networking Academy',
+      issuerShort: 'CISCO',
+      issuerLogoText: 'COLLAB',
+      program: 'Cisco Networking Academy Certificate of Completion',
+      date: '13 Nov 2026',
+      credentialId: '53753f15-779b-4b9c-83b0-6922423bff2c',
+      verificationUrl: 'https://www.netacad.com/certificates/?issuanceId=53753f15-779b-4b9c-83b0-6922423bff2c',
+      pdfUrl: '/certificates/cisco-create-digital-content.pdf',
+      category: 'IT & Digital Workplace',
+      accentColor: 'cyan',
+      recipient: 'Jenihas Getachew',
+      partnerNote: 'Awarded by Lynn Bloomer, Director, Cisco Networking Academy.',
+      skills: ['Digital Content Production', 'Cloud Collaboration', 'Online Communication', 'Productivity Tooling'],
+    },
+    {
+      id: 'cisco-digital-awareness',
+      title: 'Digital Awareness',
+      issuer: 'Cisco Networking Academy',
+      issuerShort: 'CISCO',
+      issuerLogoText: 'AWARE',
+      program: 'Cisco Networking Academy Certificate of Completion',
+      date: '12 Nov 2026',
+      credentialId: '15f67323-ec70-4422-83c4-8f8dec5e8102',
+      verificationUrl: 'https://www.netacad.com/certificates/?issuanceId=15f67323-ec70-4422-83c4-8f8dec5e8102',
+      pdfUrl: '/certificates/cisco-digital-awareness.pdf',
+      category: 'IT & Digital Workplace',
+      accentColor: 'cyan',
+      recipient: 'Jenihas Getachew',
+      partnerNote: 'Awarded by Lynn Bloomer, Director, Cisco Networking Academy.',
+      skills: ['Digital Transformation', 'Emerging Technologies', 'Data Awareness', 'Connected Workplace'],
+    },
+
+    // --- e-SHE / MINISTRY OF EDUCATION CREDENTIALS ---
     {
       id: 'eshe-ce106',
       title: "e-SHE: CE106's Keeping Yourself Safe Online",
@@ -102,8 +227,8 @@ export default function Certificates() {
       credentialId: '01fde1b3c32146d6a910fcde46b2d923',
       verificationUrl: 'https://eshe.ethernet.edu.et/',
       pdfUrl: '/certificates/eshe-keeping-yourself-safe-online.pdf',
-      category: 'Cybersecurity',
-      accentColor: 'emerald',
+      category: 'Academic & Professional',
+      accentColor: 'purple',
       recipient: 'Jenihas Getachew Adugna',
       partnerNote:
         'In partnership with Mastercard Foundation, Arizona State University (ASU EdPlus), and SYSSHAYASHONE.',
@@ -202,16 +327,17 @@ export default function Certificates() {
   ];
 
   const categories = [
-    { label: 'All Credentials', value: 'All', count: 9 },
-    { label: 'AI & Data', value: 'AI & Data', count: 2 },
-    { label: 'Mobile Dev', value: 'Mobile Dev', count: 1 },
-    { label: 'Cybersecurity', value: 'Cybersecurity', count: 1 },
-    { label: 'Academic & Professional', value: 'Academic & Professional', count: 5 },
+    { label: 'All Credentials', value: 'All', count: 16 },
+    { label: 'Programming & AI', value: 'Programming & AI', count: 4 },
+    { label: 'Cybersecurity & Systems', value: 'Cybersecurity & Systems', count: 3 },
+    { label: 'IT & Workplace', value: 'IT & Digital Workplace', count: 3 },
+    { label: 'Academic & Professional', value: 'Academic & Professional', count: 6 },
   ];
 
   const issuers = [
     { label: 'All Issuers', value: 'All' },
     { label: 'Udacity', value: 'Udacity' },
+    { label: 'Cisco', value: 'Cisco Networking Academy' },
     { label: 'e-SHE / MoE', value: 'Ministry of Education (e-SHE)' },
   ];
 
@@ -247,18 +373,18 @@ export default function Certificates() {
             Accredited Certifications
           </h2>
           <p className="text-slate-400 text-sm sm:text-base leading-relaxed">
-            Verified technical credentials and academic achievements spanning Artificial Intelligence, Mobile App Engineering, Cybersecurity, Data Analytics, and Digital Excellence.
+            16 verified technical credentials and academic honors spanning Computer Science, Software Engineering, Artificial Intelligence, Cybersecurity, Computer Networking, and Digital Excellence.
           </p>
         </div>
 
         {/* Highlight Stats Strip */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
           <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 text-center">
-            <div className="text-2xl sm:text-3xl font-extrabold text-white font-mono">9</div>
+            <div className="text-2xl sm:text-3xl font-extrabold text-white font-mono">16</div>
             <div className="text-xs text-slate-400 mt-1 font-medium">Verified Credentials</div>
           </div>
           <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 text-center">
-            <div className="text-2xl sm:text-3xl font-extrabold text-cyan-400 font-mono">2</div>
+            <div className="text-2xl sm:text-3xl font-extrabold text-cyan-400 font-mono">3</div>
             <div className="text-xs text-slate-400 mt-1 font-medium">Global & National Issuers</div>
           </div>
           <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 text-center">
@@ -387,7 +513,7 @@ export default function Certificates() {
                 Verifiable Educational & Technical Credentials
               </h4>
               <p className="text-slate-400 text-xs md:text-sm mt-0.5">
-                Every certification listed is backed by official digital issuance IDs, accessible online via Udacity and e-SHE verification services.
+                Every certification listed is backed by official digital issuance IDs, accessible online via Udacity, Cisco Networking Academy, and e-SHE verification services.
               </p>
             </div>
           </div>
