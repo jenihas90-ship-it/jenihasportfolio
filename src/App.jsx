@@ -3,6 +3,7 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Hero from './components/sections/Hero';
 import SkillsMatrix from './components/sections/SkillsMatrix';
+import Certificates from './components/sections/Certificates';
 import ProjectShowcase from './components/sections/ProjectShowcase';
 import Publications from './components/sections/Publications';
 import Contact from './components/sections/Contact';
@@ -17,6 +18,7 @@ export default function App() {
       <main className="flex-grow">
         <Hero />
         <SkillsMatrix />
+        <Certificates />
         <ProjectShowcase />
         <Publications />
         <Contact />

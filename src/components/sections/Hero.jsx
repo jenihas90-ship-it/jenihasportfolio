@@ -6,6 +6,7 @@ import {
   Copy,
   Check,
   GraduationCap,
+  Award,
 } from 'lucide-react';
 import Button from '../ui/Button';
 
@@ -47,6 +48,13 @@ export default function Hero() {
                 <GraduationCap className="w-3.5 h-3.5 text-indigo-400" />
                 <span>Jimma University • Class of 2027</span>
               </div>
+              <a
+                href="#certificates"
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-cyan-950/70 border border-cyan-800/60 text-xs font-semibold text-cyan-300 hover:border-cyan-500/60 transition-colors"
+              >
+                <Award className="w-3.5 h-3.5 text-cyan-400" />
+                <span>10 Verified Certifications</span>
+              </a>
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-950/70 border border-emerald-800/60 text-xs font-semibold text-emerald-300">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                 <span>Available for Industry Roles</span>
