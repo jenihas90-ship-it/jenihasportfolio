@@ -74,24 +74,6 @@ export default function Certificates() {
       skills: ['Android Studio', 'Mobile Architecture', 'Layout Design', 'Kotlin & Java Toolchains', 'App Lifecycle'],
     },
     {
-      id: 'cisco-cybersecurity',
-      title: 'Introduction to Cybersecurity',
-      issuer: 'Cisco Networking Academy',
-      issuerShort: 'CISCO',
-      issuerLogoText: 'CISCO',
-      program: 'Cisco Networking Academy Credential (6 Hours)',
-      date: 'November 11, 2026',
-      credentialId: 'e0f3048b-d940-4e29-b729-abf6ace01fb4',
-      verificationUrl: 'https://www.netacad.com/certificates/?issuanceId=e0f3048b-d940-4e29-b729-abf6ace01fb4',
-      pdfUrl: '/certificates/cisco-cybersecurity.pdf',
-      category: 'Cybersecurity',
-      accentColor: 'emerald',
-      recipient: 'Jenihas Getachew',
-      partnerNote:
-        'Comprehensive 6-hour foundational certification exploring global cyber threat landscapes and defensive protocols.',
-      skills: ['Cyber Best Practices', 'Privacy & Data Confidentiality', 'Network Vulnerabilities', 'Threat Detection'],
-    },
-    {
       id: 'udacity-data',
       title: 'Global Chapters - Ethiopia - Data Fundamentals',
       issuer: 'Udacity',
@@ -220,17 +202,16 @@ export default function Certificates() {
   ];
 
   const categories = [
-    { label: 'All Credentials', value: 'All', count: 10 },
+    { label: 'All Credentials', value: 'All', count: 9 },
     { label: 'AI & Data', value: 'AI & Data', count: 2 },
     { label: 'Mobile Dev', value: 'Mobile Dev', count: 1 },
-    { label: 'Cybersecurity', value: 'Cybersecurity', count: 2 },
+    { label: 'Cybersecurity', value: 'Cybersecurity', count: 1 },
     { label: 'Academic & Professional', value: 'Academic & Professional', count: 5 },
   ];
 
   const issuers = [
     { label: 'All Issuers', value: 'All' },
     { label: 'Udacity', value: 'Udacity' },
-    { label: 'Cisco', value: 'Cisco Networking Academy' },
     { label: 'e-SHE / MoE', value: 'Ministry of Education (e-SHE)' },
   ];
 
@@ -273,11 +254,11 @@ export default function Certificates() {
         {/* Highlight Stats Strip */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
           <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 text-center">
-            <div className="text-2xl sm:text-3xl font-extrabold text-white font-mono">10</div>
+            <div className="text-2xl sm:text-3xl font-extrabold text-white font-mono">9</div>
             <div className="text-xs text-slate-400 mt-1 font-medium">Verified Credentials</div>
           </div>
           <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 text-center">
-            <div className="text-2xl sm:text-3xl font-extrabold text-cyan-400 font-mono">3</div>
+            <div className="text-2xl sm:text-3xl font-extrabold text-cyan-400 font-mono">2</div>
             <div className="text-xs text-slate-400 mt-1 font-medium">Global & National Issuers</div>
           </div>
           <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 text-center">
@@ -406,7 +387,7 @@ export default function Certificates() {
                 Verifiable Educational & Technical Credentials
               </h4>
               <p className="text-slate-400 text-xs md:text-sm mt-0.5">
-                Every certification listed is backed by official digital issuance IDs, accessible online via Udacity, Cisco NetAcad, and e-SHE verification services.
+                Every certification listed is backed by official digital issuance IDs, accessible online via Udacity and e-SHE verification services.
               </p>
             </div>
           </div>
